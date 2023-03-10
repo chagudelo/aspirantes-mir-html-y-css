@@ -28,7 +28,11 @@ input:checked + label {
   border-radius: 20px;
   padding: 10px 20px 20px;
   width: 300px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 3rem;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
   box-shadow: 10px 10px 10px #255a32;
 }
 
@@ -48,12 +52,12 @@ button {
   .login {
     background: linear-gradient(to right, #bd09b7, #6b4cf5);
     transition: all ease 3s;
-    width: 80%;
-    margin: 5px;
+    width: 100%;
+    margin: 40px auto;
   }
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
   .login {
     transition: all ease 2s;
   }
