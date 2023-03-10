@@ -12,9 +12,13 @@ div {
 }
 
 input[type="email"],
-input[type="password"],
-select {
+input[type="password"] {
   width: 100%;
+  padding: 7px;
+}
+
+select {
+  width: 106%;
   padding: 7px;
 }
 
@@ -28,7 +32,6 @@ input:checked + label {
   border-radius: 20px;
   padding: 10px 20px 20px;
   width: 300px;
-  /* margin: 0 auto; */
   margin-top: 3rem;
   margin-right: auto;
   margin-bottom: 0px;
@@ -52,7 +55,6 @@ button {
   .login {
     background: linear-gradient(to right, #bd09b7, #6b4cf5);
     transition: all ease 3s;
-    width: 100%;
     margin: 40px auto;
   }
 }
