@@ -7,8 +7,9 @@ h1:hover {
   color: black;
 }
 
-div {
-  margin: 10px;
+.group {
+  width: 100%;
+  margin-right: 10px;
 }
 
 input[type="email"],
@@ -30,7 +31,7 @@ input:checked + label {
   color: white;
   background: linear-gradient(to right, #23ac6c, #44c5e6);
   border-radius: 20px;
-  padding: 10px 20px 20px;
+  padding: 10px 30px 20px;
   width: 300px;
   margin-top: 3rem;
   margin-right: auto;
@@ -55,7 +56,10 @@ button {
   .login {
     background: linear-gradient(to right, #bd09b7, #6b4cf5);
     transition: all ease 3s;
-    margin: 40px auto;
+    width: 80%;
+  }
+  select {
+    width: 106%;
   }
 }
 
