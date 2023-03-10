@@ -1,4 +1,3 @@
-/* Mobile Fist*/
 body {
   font-family: "Courier New", Courier, monospace;
   font-size: 12px;
@@ -19,7 +18,6 @@ select {
   padding: 7px;
 }
 
-/* Etiquetas para entradas marcadas */
 input:checked + label {
   color: black;
 }
@@ -27,7 +25,6 @@ input:checked + label {
 .login {
   color: white;
   background: linear-gradient(to right, #23ac6c, #44c5e6);
-  /* border: 1px solid black; */
   border-radius: 20px;
   padding: 10px 20px 20px;
   width: 300px;
@@ -38,14 +35,21 @@ input:checked + label {
 button {
   padding: 5px 15px 5px;
   border-radius: 10px;
+  position: absolute;
+  right: 0px;
+}
+
+.boton {
+  position: relative;
+  height: 20px;
 }
 
 @media (max-width: 500px) {
   .login {
     background: linear-gradient(to right, #bd09b7, #6b4cf5);
     transition: all ease 3s;
-    width: 100%;
-    margin: 30px;
+    width: 80%;
+    margin: 5px;
   }
 }
 
@@ -55,7 +59,6 @@ button {
   }
 }
 
-/* Tabletas */
 @media (min-width: 768px) {
   body {
     font-family: "Courier New", Courier, monospace;
@@ -63,7 +66,6 @@ button {
   }
 }
 
-/* Escritorio */
 @media (min-width: 992px) {
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -71,7 +73,6 @@ button {
   }
 }
 
-/* Pantallas Grandes */
 @media (min-width: 1200px) {
   body {
     font-family: "Times New Roman", Times, serif;
